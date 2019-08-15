@@ -1,0 +1,114 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.map-container-2{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  }
+  .map-container-2 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
+.logo {
+  max-width: 100px
+}
+.navbar {
+  background-color: #23415C;
+  padding: 1% 0;
+  font-size: 1.2em;
+}
+.navbar-brand {
+  min-height: 55px;
+  padding: 0px 3px 3px;
+}
+.navbar-default .navbar-nav li a{
+  color:#D5D5D5;
+}
+.navbar-default .navbar-nav li a:hover,.navbar-default .navbar-nav li a:active {
+  color:#FFF;
+}
+.navbar-default {
+  border-color: #23415C !important;
+}
+#domov {
+  background: url(slike/abstract.jpg) no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700%;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.padding slike{
+  width: 60%;
+}
+#temelji {
+  background-color: #23415C;
+  color: #FFF;
+}
+
+#fixed {
+  background: url(slike/fsdfs.jpg) no-repeat center center fixed;
+  display: table;
+  height: 60%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+footer {
+  width: 100%;
+  background-color: #23415C;
+  padding:  3% 3% 3% 3%;
+  color: #FFF;
+}
+
+.fa{
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.fa:hover {
+  color: #D5D5D5;
+  text-decoration: none;
+}
+
+.icon{
+  max-width: 100px
+}
+
+@media(mad-width: 768px) {
+  .landing-text h1{
+    font-size: 300%;
+  }
+  .fa {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .icon {
+    padding-top: 5%;
+    max-width: 100px;
+  }
+  .container {
+    width: 100%;
+  }
+}
